@@ -1,0 +1,20 @@
+# include assemblage package for editor assistance in assemble.ml
+PKG assemblage
+
+EXT cow.syntax
+
+PKG xmlm
+PKG uri
+PKG stringext
+PKG doc-ock-xml
+PKG doc-ock-lib
+PKG cow
+PKG cmdliner
+
+B _build/unit-codocSysUtil
+B _build/unit-codocConfig
+B _build/lib-codoc
+B _build/bin-codoc
+
+S lib
+S cli
