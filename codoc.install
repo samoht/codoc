@@ -47,3 +47,6 @@ bin: [
   "?_build/bin-codoc/codoc.js" {"codoc"}
   "opam-doc.ml" {"opam-doc"}
 ]
+share: [
+  "share/codoc.css" { "codoc.css" }
+]
